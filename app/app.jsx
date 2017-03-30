@@ -6,8 +6,6 @@ var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
 
-// http://samples.openweathermap.org/data/2.5/find?q=London&units=metric&appid=829aacc7cd5aa4bf8171d9f4be47bf8a
-
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
